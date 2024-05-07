@@ -51,7 +51,7 @@ jobs:
           # GitHub 密钥
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           # 指定仓库
-          REPOSITORY_NAME: SuYxh/vue-ui
+          REPOSITORY_NAME: SuYxh/vue-ui-template
           # GitHub Pages 读取的分支
           BRANCH: gh-pages
           # 静态文件所在目录

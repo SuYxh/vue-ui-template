@@ -5,6 +5,7 @@ import VueMacros from 'unplugin-vue-macros'
 import { containerPreview, componentPreview } from '@vitepress-demo-preview/plugin'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: process.env.APP_BASE_PATH || "/",
   title: "Vue 组件库模板",
   description: "A VitePress Site",
   vite: {
